@@ -1,6 +1,6 @@
 # Flask JWT Auth
 
-##Pre-requisite
+## Pre-requisite
 `` python3 installed``
 `` virtualenv installed``
 ``pip installed``
