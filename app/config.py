@@ -18,7 +18,7 @@ class DevelopmentConfig(BaseConfig):
     """Development configuration."""
     DEBUG = True
     BCRYPT_LOG_ROUNDS = 4
-    SQLALCHEMY_DATABASE_URI = postgres_local_base + database_name
+    SQLALCHEMY_DATABASE_URI = postgres_local_base + database_name + '?sslmode=require'
 
 
 class TestingConfig(BaseConfig):
